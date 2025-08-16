@@ -45,10 +45,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
                 if (content.classList.contains("active")) {
                     content.style.display = "block";
-                    plusIcon.src = "/assets/images/icon-minus.svg"; // Change icon to minus
+                    plusIcon.src = "assets/images/icon-minus.svg"; // Change icon to minus
                 } else {
                     content.style.display = "none";
-                    plusIcon.src = "/assets/images/icon-plus.svg"; // Change icon to plus
+                    plusIcon.src = "assets/images/icon-plus.svg"; // Change icon to plus
                 }
             }
         })
