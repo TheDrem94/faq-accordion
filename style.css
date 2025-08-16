@@ -79,5 +79,20 @@ hr {
 
 .background-image {
     width: 100%;
-    position: inherit;
+    /* position: inherit; */
+}
+
+@media only screen and (min-width: 1440px) {
+
+    .background-image {
+        object-fit: cover;
+        width: 100%;
+        height: 300px;
+    }
+  
+    .content {
+        width: 650px;
+        bottom: 18rem;
+        left: 39rem;
+    }
 }
